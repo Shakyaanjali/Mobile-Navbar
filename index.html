@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile navbar | upCoding</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-icons">
+        <li class="navbar-icon active">
+          <i class="fa-solid fa-house-user"></i>
+          <span>Home</span>
+        </li>
+
+        <li class="navbar-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <span>Search</span>
+        </li>
+        <li class="navbar-icon">
+          <i class="fa-regular fa-message"></i>
+          <span>Message</span>
+        </li>
+        <li class="navbar-icon">
+          <button onclick="changeAppearance()" class="appearence-btn"><i class="fa-solid fa-moon"></i></button>
+          <span>Mode</span>
+        </li>
+
+        <li class="navbar-icon">
+          <i class="fa-regular fa-circle-user"></i>
+          <span>Profile</span>
+        </li>
+      </ul>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
